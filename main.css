@@ -1,0 +1,250 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1
+{
+    width: 100vw;
+
+    height: 35vh;
+}
+
+.box2
+{
+    width: 100vw;
+    height: 35vh;
+    background-color: hsl(179, 62%, 43%)
+}
+.box3
+{
+    width: 100vw;
+    height: 35vh;
+    background-color: hsl(179, 45%, 42%)
+}
+
+h2
+{
+    color: hsl(179, 62%, 43%);
+    position: absolute;
+    left: 25px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+}
+
+h3
+{
+    color: hsl(71, 73%, 54%);
+    position: absolute;
+    left: 25px;
+    margin-top: 55px;
+    font-family: 'Karla', sans-serif;
+}
+p
+{
+color: hsl(204, 43%, 93%);
+position: absolute;
+left: 25px;
+margin-top: 120px;
+font-weight: bold;
+font-family: 'Karla', sans-serif;
+
+}
+
+.sub
+{
+    position: absolute;
+    left: 25px;
+    margin-top: 25px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+h1
+{
+    color: white;
+    position: absolute;
+    left: 25px;
+    margin-top: 55px;
+    font-family: 'Karla', sans-serif;
+}
+span
+{
+    position: absolute;
+    left: 100px;
+    margin-top: 69px;
+    color:rgb(199, 196, 196);
+    font-family: 'Karla', sans-serif;
+}
+h5
+{
+    color: rgb(231, 223, 223);
+    position: absolute;
+    left: 25px;
+    margin-top: 120px;
+    font-family: 'Karla', sans-serif;
+}
+
+.textbox
+{
+    background-color: hsl(71, 73%, 54%);
+    width: 300px;
+    height:40px;
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    left: 10px;
+    margin-top: 170px;
+    
+    border: 2px solid  hsl(71, 73%, 54%);
+    border-radius: 8px;
+    padding-left: 120px;
+    font-family: 'Karla', sans-serif;
+
+}
+::placeholder
+{
+    color: white;
+}
+
+.why
+{
+    position: absolute;
+    left: 25px;
+    margin-top: 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+.paragraph
+
+{
+    font-size: 13px;
+    position: absolute;
+    left: 25px;
+    margin-top: 50px;
+    color: hsl(218, 28%, 86%);
+    font-family: 'Karla', sans-serif;
+}
+
+
+
+@media screen and (min-width:1024px) {
+    
+    .box1
+    {
+        height: 50vh;
+        
+        font-size: 1.4rem;
+    }
+
+    h2 
+    {
+        position: relative;
+        left: 60px;
+        margin-top: 50px;
+
+    }
+
+    h3 
+    {
+        position: relative;
+        left: 60px;
+        margin-top: 25px;
+        word-wrap: break-word;
+    }
+
+    p 
+    {
+        position: relative;
+        left:60px;
+        margin-top: 40px;
+    }
+.box2
+{
+        
+    
+    height:50vh;
+    width:50%;
+    font-size: 1.6rem; 
+    float:left;
+    background-color: hsl(179, 45%, 42%)
+    
+    
+}
+
+.sub
+{
+    position: relative;
+    left: 60px;
+
+}
+
+h1 
+{
+    position: relative;
+    left: 60px;
+    display: inline-block;
+}
+span 
+{
+    position: relative;
+    left: 80px;
+
+    
+}
+
+h5 
+{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    margin-top:30px ;
+}
+
+.textbox
+{
+    position: relative;
+    width: 350px;
+    height: 60px;
+    left: 5px;
+    margin-top: 50px;
+}
+::placeholder
+{
+    font-size: larger;
+}
+
+.box3
+ {
+
+        height:50vh;
+        width:50%;
+        font-size: 1.4rem; 
+        float:right;
+        background-color: hsl(179, 62%, 43%)
+
+}
+
+
+
+.paragraph
+{
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 18px;
+    left: 40px;
+}
+
+.why
+{
+    position: relative;
+    left: 40px;
+    font-size: 26px;
+}
+
+
+
+    
+}
